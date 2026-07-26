@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact — Powder</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="site-header" id="site-header">
+  <div class="container header-inner">
+    <a href="index.html" class="logo"><img src="logo-header.svg" alt="Powder" height="26"></a>
+    <nav class="nav-links">
+      <a href="index.html#infrastructure">Infra</a>
+      <a href="index.html#products">Products</a>
+      <a href="index.html#faq">FAQ</a>
+      <a href="index.html#company">Company</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <a href="index.html#waitlist" class="btn btn-primary">Join waitlist</a>
+  </div>
+</header>
+
+<main>
+
+  <!-- CONTACT -->
+  <section class="contact-hero container">
+    <div class="section__head">
+      <div class="eyebrow"><span class="eyebrow__dot"></span>Contact.<span class="eyebrow__line"></span></div>
+      <h1 class="section__title">Let's build insurance together.</h1>
+      <p class="section__lede">Tell us what you're building. We'll come back with an integration path, insurer options and indicative pricing.</p>
+    </div>
+
+    <div class="contact-grid">
+      <div class="card contact-form-card">
+        <form id="contact-form" class="contact-form">
+          <div class="field">
+            <label for="contact-name">Name</label>
+            <input type="text" id="contact-name" placeholder="Ada Obi" required>
+          </div>
+          <div class="field">
+            <label for="contact-email">Work email</label>
+            <input type="email" id="contact-email" placeholder="you@company.com" required>
+          </div>
+          <div class="field">
+            <label for="contact-company">Company</label>
+            <input type="text" id="contact-company" placeholder="Company name" required>
+          </div>
+          <div class="field">
+            <label for="contact-message">Message</label>
+            <textarea id="contact-message" rows="5" placeholder="What are you building, and which markets are you targeting?" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-block">Send message</button>
+          <p class="form__status" id="form-status"></p>
+        </form>
+      </div>
+
+      <div class="contact-cards">
+        <article class="card contact-card pop">
+          <h3>Email</h3>
+          <p class="contact-card__value">hello@powder.africa</p>
+          <p class="contact-card__hint">General enquiries and partnerships.</p>
+        </article>
+
+        <article class="card contact-card pop">
+          <h3>Sales</h3>
+          <p class="contact-card__value">sales@powder.africa</p>
+          <p class="contact-card__hint">Pricing, volumes and enterprise rollouts.</p>
+        </article>
+
+        <article class="card contact-card pop">
+          <h3>Documentation</h3>
+          <p class="contact-card__value">docs.powder.africa</p>
+          <p class="contact-card__hint">API reference, SDKs and integration guides.</p>
+        </article>
+
+        <article class="cta-block pop">
+          <h3>Talk to us</h3>
+          <p>Tell us what you're building and we'll map the fastest route to launch.</p>
+          <a href="mailto:hello@powder.africa" class="btn btn-primary btn-block">Get in touch</a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div class="footer-brand">
+      <div class="logo logo--light"><img src="logo-footer.svg" alt="Powder" height="30"></div>
+      <p>Insurance Infrastructure for Africa.</p>
+    </div>
+    <div class="footer-col">
+      <h2>Resources</h2>
+      <ul>
+        <li><a href="#">Documentation</a></li>
+        <li><a href="#">API Reference</a></li>
+        <li><a href="#">Status</a></li>
+        <li><a href="#">Changelog</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h2>Company</h2>
+      <ul>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Careers</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="#">Legal</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="container footer-bottom">
+    <p>© 2026 Powder Technologies Ltd.</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
