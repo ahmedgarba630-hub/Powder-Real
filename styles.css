@@ -1,4 +1,22 @@
 /* ---------- Tokens ---------- */
+
+/*
+  GIMBAL EXTENDED — licensed font, not available on Google Fonts.
+  If you own the font files (.woff2/.woff), drop them in this folder
+  and uncomment the @font-face block below with the correct filenames.
+  Until then, the --font-hero stack falls back to Poppins (a similar
+  geometric-sans feel) so the hero still looks intentional.
+
+  @font-face {
+    font-family: 'Gimbal Extended';
+    src: url('gimbal-extended-regular.woff2') format('woff2'),
+         url('gimbal-extended-regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+  }
+*/
+
 :root{
   --cream: #F8F2DE;
   --parchment: #F1E9CD;
@@ -18,16 +36,7 @@
   --font-display: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   --font-body: Helvetica, Arial, sans-serif;
   --font-mono: 'IBM Plex Mono', monospace;
-  --font-hero: 'Gimbal Extended', var(--font-display);
-}
-
-@font-face{
-  font-family: 'Gimbal Extended';
-  src: url('fonts/gimbal-extended-regular.otf') format('opentype'),
-       url('fonts/gimbal-extended-regular.ttf') format('truetype');
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
+  --font-hero: 'Gimbal Extended', 'Poppins', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 *{ box-sizing: border-box; margin: 0; padding: 0; }
@@ -189,14 +198,15 @@ body.drawer-open{ overflow: hidden; }
 }
 .hero__title{
   font-family: var(--font-hero);
-  font-weight: 400;
-  font-size: clamp(36px, 4.6vw, 60px);
-  line-height: 1.12;
-  letter-spacing: 0.1px;
-  margin-bottom: 28px;
-  text-wrap: balance;
+  font-size: clamp(36px, 4.8vw, 60px);
+  font-weight: 500;
+  line-height: 1.08;
+  letter-spacing: -0.4px;
+  margin-bottom: 26px;
 }
 .hero__lede{
+  font-family: var(--font-hero);
+  font-weight: 400;
   font-size: 17.5px;
   line-height: 1.7;
   color: var(--coffee);
@@ -372,55 +382,44 @@ body.drawer-open{ overflow: hidden; }
 .faq{ background: var(--parchment); padding: 104px 0; border-top: 1px solid var(--grain); border-bottom: 1px solid var(--grain); }
 .faq__grid{ display: grid; grid-template-columns: 1fr 1.3fr; gap: 40px; align-items: start; }
 .faq__sticky{ position: sticky; top: 110px; }
-.faq__cta{ margin-top: 32px; }
-
+.faq__cta{ margin-top: 8px; align-self: flex-start; }
 .faq__card{
   background: var(--pearl);
   border: 1px solid var(--grain);
   border-radius: 24px;
-  padding: 10px 30px;
-  box-shadow: 0 40px 70px -36px rgba(36,22,64,0.22);
+  box-shadow: 0 40px 70px -36px rgba(36,22,64,0.16);
+  padding: 8px 28px;
 }
 .faq__list{ display: flex; flex-direction: column; }
 
-.faq__item{
-  border-bottom: 1px solid var(--grain);
-  border-radius: 14px;
-  transition: background-color 0.25s ease;
-}
+.faq__item{ border-bottom: 1px solid var(--grain); }
 .faq__item:last-child{ border-bottom: none; }
-.faq__item:hover{ background-color: rgba(145,108,248,0.05); }
-.faq__item:has(.faq__trigger[aria-expanded="true"]){
-  background-color: rgba(145,108,248,0.07);
-}
 .faq__trigger{
   width: 100%; display: flex; justify-content: space-between; align-items: center;
-  gap: 20px; padding: 26px 10px; background: none; border: none; cursor: pointer;
+  gap: 20px; padding: 24px 8px; background: none; border: none; cursor: pointer;
   text-align: left; font-family: var(--font-display); font-weight: 700;
   font-size: 18px; letter-spacing: -0.2px; color: var(--coffee);
-  transition: color 0.2s;
+  border-radius: 12px;
+  transition: color 0.2s, background 0.2s;
 }
-.faq__trigger:hover{ color: var(--ebony); }
-.faq__trigger[aria-expanded="true"]{ color: var(--ebony); }
+.faq__trigger:hover{ color: var(--ebony); background: rgba(145,108,248,0.06); }
 .faq__icon{
   flex-shrink: 0; width: 18px; height: 18px; position: relative;
 }
 .faq__icon::before, .faq__icon::after{
   content: ''; position: absolute; background: var(--cornflower);
   top: 50%; left: 50%; transform: translate(-50%,-50%);
-  border-radius: 2px;
-  transition: transform 0.35s cubic-bezier(0.22, 1, 0.36, 1);
+  transition: transform 0.3s ease;
 }
 .faq__icon::before{ width: 12px; height: 1.5px; }
 .faq__icon::after{ width: 1.5px; height: 12px; }
-.faq__trigger[aria-expanded="true"] .faq__icon::before{ transform: translate(-50%,-50%) rotate(180deg); }
 .faq__trigger[aria-expanded="true"] .faq__icon::after{ transform: translate(-50%,-50%) rotate(90deg) scaleY(0); }
 .faq__panel{
   max-height: 0; overflow: hidden;
-  transition: max-height 0.4s cubic-bezier(0.22, 1, 0.36, 1);
+  transition: max-height 0.4s cubic-bezier(0.22, 1, 0.36, 1), padding 0.4s cubic-bezier(0.22, 1, 0.36, 1);
 }
 .faq__panel p{
-  padding: 0 10px 28px; font-size: 15.5px; line-height: 1.7; color: var(--coffee); max-width: 560px;
+  padding: 0 8px 24px; font-size: 15.5px; line-height: 1.7; color: var(--coffee); max-width: 560px;
 }
 
 /* ---------- Company (dark panel) ---------- */
@@ -464,25 +463,25 @@ body.drawer-open{ overflow: hidden; }
 .num-grid__cell p{ font-size: 14.5px; line-height: 1.6; color: var(--logan); }
 
 /* ---------- Waitlist ---------- */
-.waitlist{ padding: 112px 0; border-top: 1px solid var(--grain); }
-.waitlist-card{
-  background: var(--pearl);
-  border: 1px solid var(--grain);
-  border-radius: 28px;
-  padding: 64px 56px;
-  box-shadow: 0 40px 80px -34px rgba(36,22,64,0.24);
-}
+.waitlist{ padding: 104px 0 120px; }
 .waitlist-inner{
-  max-width: 460px;
+  max-width: 560px;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
+  background: var(--pearl);
+  border: 1px solid var(--grain);
+  border-radius: 28px;
+  box-shadow: 0 40px 80px -34px rgba(36,22,64,0.18);
+  padding: 64px 48px;
 }
-.waitlist-inner .section__title{ margin-bottom: 40px; }
+.waitlist-inner .eyebrow{ justify-content: center; }
+.waitlist-inner .section__title{ margin-bottom: 36px; }
 .waitlist-form{
   width: 100%;
+  max-width: 340px;
   display: flex;
   flex-direction: column;
   gap: 17px;
@@ -490,21 +489,24 @@ body.drawer-open{ overflow: hidden; }
 }
 .waitlist-counter{
   display: flex;
-  align-items: baseline;
-  gap: 10px;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
   margin-top: 48px;
 }
+.waitlist-counter__top{ display: flex; align-items: center; gap: 8px; }
 .waitlist-counter .pulse-dot{ align-self: center; }
 .waitlist-counter__number{
   font-family: var(--font-display);
-  font-size: 28px;
+  font-size: 44px;
   font-weight: 700;
-  letter-spacing: -0.3px;
+  letter-spacing: -0.5px;
+  line-height: 1;
   color: var(--ebony);
 }
 .waitlist-counter__label{
   font-family: var(--font-mono);
-  font-size: 12px;
+  font-size: 11.5px;
   letter-spacing: 1.15px;
   text-transform: uppercase;
   color: var(--coffee);
@@ -512,7 +514,7 @@ body.drawer-open{ overflow: hidden; }
 
 /* ---------- Footer ---------- */
 .site-footer{ background: var(--ebony); color: var(--prelude); padding: 72px 0 34px; }
-.footer-grid{ display: grid; grid-template-columns: 1.4fr 1fr 1fr; gap: 40px; margin-bottom: 40px; }
+.footer-grid{ display: grid; grid-template-columns: 1.3fr 1fr 1fr 1fr; gap: 32px; margin-bottom: 40px; }
 .footer-brand .logo--light{ margin-bottom: 14px; }
 .footer-brand p{ font-size: 14px; }
 .footer-col h2{
@@ -554,6 +556,33 @@ body.drawer-open{ overflow: hidden; }
   width: 100%;
   max-width: 560px;
 }
+.contact-info{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  margin-top: 28px;
+  padding-top: 24px;
+  border-top: 1px solid var(--grain);
+}
+.contact-info__item{
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.contact-info__label{
+  font-family: var(--font-mono);
+  font-size: 11px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: var(--studio);
+}
+.contact-info__value{
+  font-family: var(--font-display);
+  font-size: 16px;
+  color: var(--ebony);
+  transition: color 0.2s;
+}
+.contact-info__item:hover .contact-info__value{ color: var(--cornflower); }
 .card{
   background: var(--pearl);
   border: 1px solid var(--grain);
@@ -635,7 +664,7 @@ body.drawer-open{ overflow: hidden; }
   .num-grid{ grid-template-columns: repeat(2, 1fr); }
   .num-grid__cell:nth-child(2n){ border-right: none; }
   .panel-dark{ padding: 40px; }
-  .footer-grid{ grid-template-columns: 1fr; }
+  .footer-grid{ grid-template-columns: 1fr 1fr; row-gap: 32px; }
   .contact-grid{ grid-template-columns: 1fr; }
 }
 
@@ -646,16 +675,15 @@ body.drawer-open{ overflow: hidden; }
   .infra, .products, .faq, .company, .waitlist{ padding: 64px 0; }
   .section__head{ margin-bottom: 28px; }
   .cap-col, .product-card, .contact-form-card, .contact-card{ padding: 22px; }
-  .faq__card{ padding: 4px 16px; border-radius: 18px; }
-  .faq__trigger{ padding: 20px 4px; font-size: 16.5px; }
-  .faq__panel p{ padding: 0 4px 22px; }
   .panel-dark{ padding: 24px; border-radius: 20px; }
   .num-grid{ grid-template-columns: 1fr; }
   .num-grid__cell{ border-right: none !important; border-bottom: 1px solid rgba(201,182,255,0.22); }
   .num-grid__cell:last-child{ border-bottom: none; }
-  .waitlist{ padding: 64px 0; }
-  .waitlist-card{ padding: 40px 24px; border-radius: 20px; }
-  .waitlist-inner{ max-width: 100%; }
+  .waitlist{ padding: 88px 0; }
+  .waitlist-inner{ max-width: 100%; padding: 40px 24px; }
+  .faq__card{ padding: 4px 16px; }
+  .faq__trigger{ font-size: 16px; padding: 20px 6px; }
+  .footer-grid{ grid-template-columns: 1fr; }
   .hero__actions .btn{ flex: 1 1 auto; text-align: center; justify-content: center; }
   .ticket{ padding: 20px; }
   .rail__label{ font-size: 9px; }
