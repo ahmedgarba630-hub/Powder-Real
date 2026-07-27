@@ -108,10 +108,17 @@ if(waitlistForm){
   waitlistForm.addEventListener('submit', (e) => {
     e.preventDefault();
     const btn = waitlistForm.querySelector('button');
+    const status = document.getElementById('waitlist-status');
     const original = btn.textContent;
     btn.textContent = 'Joined ✓';
     btn.disabled = true;
-    setTimeout(() => { btn.textContent = original; btn.disabled = false; waitlistForm.reset(); }, 2200);
+    if(status) status.textContent = "You're on the list — we'll be in touch.";
+    setTimeout(() => {
+      btn.textContent = original;
+      btn.disabled = false;
+      waitlistForm.reset();
+      if(status) status.textContent = '';
+    }, 2600);
   });
 }
 

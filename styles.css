@@ -18,6 +18,16 @@
   --font-display: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   --font-body: Helvetica, Arial, sans-serif;
   --font-mono: 'IBM Plex Mono', monospace;
+  --font-hero: 'Gimbal Extended', var(--font-display);
+}
+
+@font-face{
+  font-family: 'Gimbal Extended';
+  src: url('fonts/gimbal-extended-regular.otf') format('opentype'),
+       url('fonts/gimbal-extended-regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
 }
 
 *{ box-sizing: border-box; margin: 0; padding: 0; }
@@ -178,11 +188,13 @@ body.drawer-open{ overflow: hidden; }
   min-height: 640px;
 }
 .hero__title{
-  font-family: var(--font-display);
-  font-size: clamp(38px, 5vw, 64px);
-  line-height: 1.05;
-  letter-spacing: -0.5px;
-  margin-bottom: 26px;
+  font-family: var(--font-hero);
+  font-weight: 400;
+  font-size: clamp(36px, 4.6vw, 60px);
+  line-height: 1.12;
+  letter-spacing: 0.1px;
+  margin-bottom: 28px;
+  text-wrap: balance;
 }
 .hero__lede{
   font-size: 17.5px;
@@ -360,35 +372,55 @@ body.drawer-open{ overflow: hidden; }
 .faq{ background: var(--parchment); padding: 104px 0; border-top: 1px solid var(--grain); border-bottom: 1px solid var(--grain); }
 .faq__grid{ display: grid; grid-template-columns: 1fr 1.3fr; gap: 40px; align-items: start; }
 .faq__sticky{ position: sticky; top: 110px; }
+.faq__cta{ margin-top: 32px; }
+
+.faq__card{
+  background: var(--pearl);
+  border: 1px solid var(--grain);
+  border-radius: 24px;
+  padding: 10px 30px;
+  box-shadow: 0 40px 70px -36px rgba(36,22,64,0.22);
+}
 .faq__list{ display: flex; flex-direction: column; }
 
-.faq__item{ border-bottom: 1px solid var(--grain); }
-.faq__item:first-child{ border-top: 1px solid var(--grain); }
+.faq__item{
+  border-bottom: 1px solid var(--grain);
+  border-radius: 14px;
+  transition: background-color 0.25s ease;
+}
+.faq__item:last-child{ border-bottom: none; }
+.faq__item:hover{ background-color: rgba(145,108,248,0.05); }
+.faq__item:has(.faq__trigger[aria-expanded="true"]){
+  background-color: rgba(145,108,248,0.07);
+}
 .faq__trigger{
   width: 100%; display: flex; justify-content: space-between; align-items: center;
-  gap: 20px; padding: 24px 4px; background: none; border: none; cursor: pointer;
+  gap: 20px; padding: 26px 10px; background: none; border: none; cursor: pointer;
   text-align: left; font-family: var(--font-display); font-weight: 700;
   font-size: 18px; letter-spacing: -0.2px; color: var(--coffee);
   transition: color 0.2s;
 }
 .faq__trigger:hover{ color: var(--ebony); }
+.faq__trigger[aria-expanded="true"]{ color: var(--ebony); }
 .faq__icon{
   flex-shrink: 0; width: 18px; height: 18px; position: relative;
 }
 .faq__icon::before, .faq__icon::after{
   content: ''; position: absolute; background: var(--cornflower);
   top: 50%; left: 50%; transform: translate(-50%,-50%);
-  transition: transform 0.3s ease;
+  border-radius: 2px;
+  transition: transform 0.35s cubic-bezier(0.22, 1, 0.36, 1);
 }
 .faq__icon::before{ width: 12px; height: 1.5px; }
 .faq__icon::after{ width: 1.5px; height: 12px; }
+.faq__trigger[aria-expanded="true"] .faq__icon::before{ transform: translate(-50%,-50%) rotate(180deg); }
 .faq__trigger[aria-expanded="true"] .faq__icon::after{ transform: translate(-50%,-50%) rotate(90deg) scaleY(0); }
 .faq__panel{
   max-height: 0; overflow: hidden;
-  transition: max-height 0.35s ease, padding 0.35s ease;
+  transition: max-height 0.4s cubic-bezier(0.22, 1, 0.36, 1);
 }
 .faq__panel p{
-  padding: 0 4px 24px; font-size: 15.5px; line-height: 1.7; color: var(--coffee); max-width: 560px;
+  padding: 0 10px 28px; font-size: 15.5px; line-height: 1.7; color: var(--coffee); max-width: 560px;
 }
 
 /* ---------- Company (dark panel) ---------- */
@@ -432,24 +464,51 @@ body.drawer-open{ overflow: hidden; }
 .num-grid__cell p{ font-size: 14.5px; line-height: 1.6; color: var(--logan); }
 
 /* ---------- Waitlist ---------- */
-.waitlist{ padding: 104px 0; }
-.waitlist-form{ max-width: 520px; margin-top: 24px; }
-.waitlist-form label{
-  display: block; font-family: var(--font-mono); font-size: 11.5px;
-  letter-spacing: 1.75px; text-transform: uppercase; color: var(--studio); margin-bottom: 8px;
+.waitlist{ padding: 112px 0; border-top: 1px solid var(--grain); }
+.waitlist-card{
+  background: var(--pearl);
+  border: 1px solid var(--grain);
+  border-radius: 28px;
+  padding: 64px 56px;
+  box-shadow: 0 40px 80px -34px rgba(36,22,64,0.24);
 }
-.waitlist-form__row{ display: flex; gap: 12px; }
-.waitlist-form__row input{
-  flex: 1; min-width: 220px; padding: 14px 16px; background: var(--cream);
-  border: 1px solid var(--grain); border-radius: 12px; font-size: 16px; font-family: var(--font-body);
+.waitlist-inner{
+  max-width: 460px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
 }
-.waitlist-count{
-  display: flex; align-items: center; gap: 12px; max-width: 520px;
-  margin-top: 24px; padding: 24px 28px; background: var(--pearl);
-  border: 1px solid var(--grain); border-radius: 18px;
-  font-family: var(--font-mono); font-size: 12.5px; letter-spacing: 1.35px; text-transform: uppercase;
+.waitlist-inner .section__title{ margin-bottom: 40px; }
+.waitlist-form{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 17px;
+  text-align: left;
 }
-.waitlist-chips{ display: flex; flex-wrap: wrap; gap: 8px; margin-top: 24px; }
+.waitlist-counter{
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+  margin-top: 48px;
+}
+.waitlist-counter .pulse-dot{ align-self: center; }
+.waitlist-counter__number{
+  font-family: var(--font-display);
+  font-size: 28px;
+  font-weight: 700;
+  letter-spacing: -0.3px;
+  color: var(--ebony);
+}
+.waitlist-counter__label{
+  font-family: var(--font-mono);
+  font-size: 12px;
+  letter-spacing: 1.15px;
+  text-transform: uppercase;
+  color: var(--coffee);
+}
 
 /* ---------- Footer ---------- */
 .site-footer{ background: var(--ebony); color: var(--prelude); padding: 72px 0 34px; }
@@ -470,19 +529,37 @@ body.drawer-open{ overflow: hidden; }
 }
 
 /* ---------- Contact page ---------- */
-.contact-hero{ padding: 88px 32px 104px; }
+.contact-hero{ padding: 88px 32px 120px; }
+.section__head--center{
+  max-width: 560px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.eyebrow--center{ justify-content: center; }
 .contact-grid{
   display: grid;
   grid-template-columns: 1.1fr 1fr;
   gap: 24px;
   align-items: start;
 }
+.contact-grid--single{
+  display: flex;
+  justify-content: center;
+}
+.contact-grid--single .contact-form-card{
+  width: 100%;
+  max-width: 560px;
+}
 .card{
   background: var(--pearl);
   border: 1px solid var(--grain);
   border-radius: 18px;
 }
-.contact-form-card{ padding: 32px; }
+.contact-form-card{ padding: 40px; }
 .contact-form{ display: flex; flex-direction: column; gap: 17px; }
 .field{ display: flex; flex-direction: column; gap: 8px; }
 .field label{
@@ -569,14 +646,16 @@ body.drawer-open{ overflow: hidden; }
   .infra, .products, .faq, .company, .waitlist{ padding: 64px 0; }
   .section__head{ margin-bottom: 28px; }
   .cap-col, .product-card, .contact-form-card, .contact-card{ padding: 22px; }
+  .faq__card{ padding: 4px 16px; border-radius: 18px; }
+  .faq__trigger{ padding: 20px 4px; font-size: 16.5px; }
+  .faq__panel p{ padding: 0 4px 22px; }
   .panel-dark{ padding: 24px; border-radius: 20px; }
   .num-grid{ grid-template-columns: 1fr; }
   .num-grid__cell{ border-right: none !important; border-bottom: 1px solid rgba(201,182,255,0.22); }
   .num-grid__cell:last-child{ border-bottom: none; }
-  .waitlist-form__row{ flex-direction: column; align-items: stretch; }
-  .waitlist-form__row input{ min-width: 0; }
-  .waitlist-form__row .btn{ width: 100%; }
-  .waitlist-count{ flex-wrap: wrap; padding: 18px 20px; }
+  .waitlist{ padding: 64px 0; }
+  .waitlist-card{ padding: 40px 24px; border-radius: 20px; }
+  .waitlist-inner{ max-width: 100%; }
   .hero__actions .btn{ flex: 1 1 auto; text-align: center; justify-content: center; }
   .ticket{ padding: 20px; }
   .rail__label{ font-size: 9px; }
