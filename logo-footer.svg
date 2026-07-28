@@ -1,18 +1,361 @@
-<svg width="179" height="43" viewBox="0 0 179 43" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g clip-path="url(#clip0_126_10429)">
-<path d="M32.4815 12.8335C32.7199 12.8338 32.7199 12.8338 32.9631 12.8341C33.1307 12.8326 33.2983 12.8311 33.4709 12.8295C34.0266 12.8252 34.5823 12.8243 35.138 12.8239C35.5239 12.8224 35.9097 12.8209 36.2955 12.8193C37.1054 12.8166 37.9152 12.8157 38.725 12.816C39.7621 12.8161 40.799 12.8099 41.8361 12.8021C42.6335 12.797 43.4309 12.7961 44.2283 12.7964C44.6105 12.7958 44.9928 12.7938 45.3751 12.7903C45.9105 12.7859 46.4456 12.7872 46.981 12.7899C47.1385 12.7874 47.2961 12.7848 47.4584 12.7822C48.5288 12.7961 49.0734 13.0421 49.8225 13.8052C50.2068 14.7754 49.9473 15.6725 49.715 16.6544C49.6777 16.8204 49.6404 16.9863 49.602 17.1572C49.4804 17.6953 49.3557 18.2326 49.2307 18.77C49.1462 19.1395 49.0619 19.5091 48.9777 19.8787C48.8518 20.4311 48.7256 20.9835 48.5984 21.5356C48.3579 22.5798 48.1259 23.6251 47.9045 24.6736C47.8561 24.8994 47.8078 25.1253 47.758 25.3579C47.6721 25.7605 47.5879 26.1634 47.5059 26.5667C47.1857 28.0357 46.8081 29.2017 45.5608 30.1393C44.4188 30.7592 43.2355 30.6653 41.9682 30.6409C41.7152 30.6396 41.4622 30.6384 41.2016 30.637C40.3976 30.632 39.5939 30.6206 38.79 30.6091C38.2433 30.6046 37.6965 30.6004 37.1498 30.5967C35.8131 30.5868 34.4765 30.5716 33.1399 30.5525C33.096 30.9984 33.096 30.9984 33.0512 31.4532C32.9374 32.4769 32.7543 33.4689 32.5296 34.4733C32.492 34.643 32.4544 34.8127 32.4157 34.9875C32.3366 35.3427 32.2568 35.6978 32.1764 36.0527C32.0548 36.5928 31.9375 37.1337 31.8202 37.6748C31.7423 38.0222 31.664 38.3695 31.5856 38.7167C31.5515 38.8766 31.5174 39.0364 31.4823 39.2011C31.1843 40.4829 30.7222 41.4949 29.6455 42.2785C28.7048 42.7271 27.9141 42.8025 26.8751 42.8036C26.5011 42.8041 26.5011 42.8041 26.1195 42.8045C25.7307 42.8032 25.7307 42.8032 25.334 42.8019C25.073 42.8027 24.812 42.8036 24.5432 42.8045C24.2944 42.8042 24.0456 42.8039 23.7894 42.8036C23.5613 42.8034 23.3333 42.8031 23.0984 42.8029C22.5441 42.7736 22.5441 42.7736 22.0933 42.5473C22.1829 41.4135 22.2947 40.2855 22.5019 39.1667C22.5312 39.0059 22.5606 38.8452 22.5908 38.6796C22.842 38.0722 23.0943 37.8787 23.6713 37.5683C24.4005 37.502 24.4005 37.502 25.1931 37.5259C25.5889 37.5351 25.5889 37.5351 25.9927 37.5444C26.1938 37.5523 26.3949 37.5602 26.6021 37.5683C26.6515 37.3235 26.7009 37.0788 26.7518 36.8266C27.2003 34.6302 27.6779 32.4401 28.1802 30.2555C28.2335 30.0141 28.2869 29.7727 28.3419 29.524C28.6972 28.0043 29.0137 26.7944 30.3219 25.8423C31.1917 25.4276 31.9235 25.319 32.8829 25.3216C33.0995 25.3216 33.3161 25.3216 33.5392 25.3216C33.7713 25.3228 34.0033 25.324 34.2424 25.3252C34.4813 25.3255 34.7202 25.3258 34.9664 25.3261C35.729 25.3274 36.4916 25.3302 37.2542 25.3331C37.7714 25.3342 38.2886 25.3353 38.8058 25.3362C40.0733 25.3387 41.3409 25.3425 42.6084 25.3473C42.6278 25.2063 42.6473 25.0654 42.6674 24.9203C43.0313 22.517 43.6179 20.2761 44.1865 17.8788C39.5739 17.8788 34.9614 17.8788 30.2091 17.8788C29.983 16.744 30.0872 16.0777 30.3923 15.0075C30.4326 14.8544 30.4728 14.7014 30.5143 14.5438C30.8743 13.2324 31.0981 12.8519 32.4815 12.8335Z" fill="white"/>
-<path d="M22.9842 0.861168C23.1331 0.861809 23.2819 0.862449 23.4353 0.863109C23.9084 0.865633 24.3815 0.871312 24.8547 0.877081C25.1764 0.879352 25.4981 0.881418 25.8199 0.883269C26.6066 0.888247 27.3932 0.896054 28.1799 0.905371C28.1909 1.96017 28.1394 2.87878 27.884 3.90405C27.8291 4.13394 27.7742 4.36383 27.7176 4.60068C27.3878 5.53264 27.3878 5.53264 26.8273 5.88432C26.0708 5.95062 26.0708 5.95062 25.2069 5.92675C24.9201 5.92063 24.6333 5.9145 24.3378 5.90819C24.0078 5.89637 24.0078 5.89637 23.6711 5.88432C23.642 6.14466 23.6129 6.40499 23.5829 6.67322C23.461 7.64904 23.27 8.59822 23.0529 9.55664C23.0148 9.72668 22.9767 9.89671 22.9374 10.0719C22.8572 10.4284 22.7765 10.7848 22.6953 11.1411C22.5722 11.6834 22.4519 12.2263 22.3317 12.7693C22.2529 13.1176 22.1739 13.4659 22.0948 13.8142C22.0595 13.9748 22.0243 14.1354 21.988 14.3008C21.6834 15.6169 21.3748 16.6573 20.2895 17.4971C19.4307 17.9821 18.8149 18.1343 17.846 18.1518C17.5144 18.1586 17.5144 18.1586 17.176 18.1655C16.8188 18.1712 16.8188 18.1712 16.4544 18.177C16.2101 18.1817 15.9659 18.1864 15.7143 18.1912C14.9333 18.206 14.1523 18.2194 13.3713 18.2327C12.8422 18.2424 12.3131 18.2523 11.784 18.2623C10.4861 18.2867 9.18818 18.3091 7.89026 18.3317C7.3695 20.6469 6.84873 22.9621 6.31218 25.3475C7.30228 25.3612 8.29238 25.3749 9.31248 25.389C10.0999 25.4006 10.8873 25.4123 11.6747 25.4242C12.507 25.4367 13.3393 25.4488 14.1716 25.46C14.9727 25.4708 15.7737 25.4826 16.5747 25.4952C16.8809 25.4999 17.1872 25.5041 17.4934 25.5079C17.921 25.5134 18.3485 25.5203 18.7761 25.5273C19.0199 25.5308 19.2637 25.5344 19.5149 25.538C20.0641 25.5738 20.0641 25.5738 20.2895 25.8001C20.2771 27.3355 19.9834 28.9101 19.3877 30.3264C18.7209 30.6611 18.0416 30.5919 17.3101 30.5964C17.1425 30.5982 16.9749 30.6001 16.8023 30.602C16.2466 30.6076 15.6909 30.6114 15.1352 30.6146C14.8507 30.6164 14.8507 30.6164 14.5604 30.6183C13.5563 30.6243 12.5523 30.6287 11.5482 30.632C10.5111 30.6357 9.47416 30.6459 8.43711 30.6574C7.63971 30.665 6.84235 30.6676 6.04492 30.6689C5.66264 30.6704 5.28037 30.6739 4.89812 30.6793C4.36269 30.6865 3.8277 30.6865 3.29223 30.6848C3.13467 30.6885 2.97711 30.6922 2.81478 30.696C1.95675 30.6851 1.59663 30.5675 0.913928 30.0284C0.407547 29.3646 0.318967 28.982 0.374247 28.1531C0.53806 26.991 0.789543 25.8523 1.05219 24.7092C1.14575 24.2959 1.14575 24.2959 1.24121 23.8743C1.37341 23.2939 1.50668 22.7138 1.64094 22.1339C1.77809 21.5414 1.91246 20.9484 2.04427 20.3547C2.2357 19.495 2.43229 18.6365 2.63027 17.7783C2.68856 17.5137 2.74685 17.2492 2.8069 16.9767C3.22082 15.2261 3.60601 14.2281 5.09306 13.1589C6.21855 12.7798 7.28017 12.8166 8.45915 12.8338C8.83157 12.8352 8.83157 12.8352 9.21152 12.8367C10.0017 12.8405 10.7917 12.849 11.5819 12.8577C12.1187 12.8611 12.6556 12.8642 13.1925 12.867C14.5062 12.8744 15.8197 12.8858 17.1333 12.9001C17.1613 12.7255 17.1892 12.551 17.2179 12.3711C17.5195 10.5154 17.8938 8.69212 18.3269 6.86318C18.4052 6.52918 18.4819 6.19478 18.5569 5.86001C18.6672 5.36797 18.7825 4.87735 18.899 4.38674C18.9658 4.09825 19.0326 3.80976 19.1014 3.51253C19.4875 2.43833 20.0027 1.73118 20.9383 1.04958C21.6298 0.84115 22.2632 0.855034 22.9842 0.861168Z" fill="white"/>
-<path d="M76.4243 12.6738C77.9866 12.6738 79.5489 12.6738 81.1586 12.6738C81.0143 14.1219 80.8625 15.4199 80.5166 16.8094C80.4769 16.9748 80.4372 17.1403 80.3962 17.3107C80.2713 17.8306 80.1445 18.3499 80.0173 18.8692C79.8894 19.3934 79.762 19.9177 79.6359 20.4423C79.5579 20.7664 79.4789 21.0904 79.3988 21.414C79.2203 22.1541 79.1296 22.7686 79.1296 23.537C80.5707 22.2407 82.0011 20.934 83.4227 19.6162C83.6426 19.4164 83.8626 19.2166 84.0893 19.0107C84.1861 18.8905 84.2828 18.7703 84.3825 18.6464C85.3828 17.5323 86.5903 17.4216 88.0121 17.3263C88.5552 17.3028 89.0972 17.2913 89.6408 17.285C89.8246 17.2816 90.0084 17.2781 90.1977 17.2746C93.1814 17.2565 93.1814 17.2565 94.4338 18.0811C95.4091 19.1222 95.9858 20.3197 96.4965 21.6427C96.7861 22.3569 97.1529 22.9236 97.6157 23.537C97.6901 23.537 97.7645 23.537 97.8412 23.537C98.6595 19.9521 99.4779 16.3673 100.321 12.6738C101.958 12.6738 103.594 12.6738 105.281 12.6738C105.136 13.8364 104.985 14.8992 104.73 16.0295C104.682 16.2435 104.682 16.2435 104.633 16.4618C104.529 16.9265 104.423 17.3909 104.317 17.8552C104.243 18.1808 104.17 18.5064 104.096 18.832C103.941 19.5111 103.786 20.1899 103.631 20.8687C103.432 21.7382 103.236 22.6084 103.04 23.4789C102.889 24.1501 102.736 24.8207 102.582 25.4912C102.509 25.812 102.436 26.133 102.365 26.4541C102.264 26.902 102.161 27.3491 102.057 27.7962C101.999 28.0505 101.942 28.3049 101.882 28.5669C101.672 29.2 101.529 29.4843 100.997 29.8738C99.9726 30.0573 98.9367 30.0414 97.8975 30.0577C97.4704 30.0816 97.4704 30.0816 97.0345 30.1059C94.9871 30.1372 94.9871 30.1372 94.1834 29.4366C93.7687 28.8477 93.437 28.2508 93.1069 27.6107C92.8618 27.2265 92.6132 26.8445 92.361 26.4649C92.1253 26.0928 91.8902 25.7204 91.6557 25.3475C91.5337 25.1564 91.4118 24.9653 91.2862 24.7685C91.1138 24.495 91.1138 24.495 90.9379 24.2159C90.8346 24.0526 90.7314 23.8892 90.6249 23.7209C90.4016 23.3107 90.4016 23.3107 90.4016 22.858C88.0485 22.6945 88.0485 22.6945 85.9659 23.6484C85.3289 24.2207 84.7428 24.8394 84.1669 25.4732C83.6588 26.0214 83.0905 26.4899 82.513 26.9618C82.0235 27.3932 82.0235 27.3932 81.5795 28.0332C80.6791 29.1196 80.0302 29.7755 78.5932 29.9848C76.6641 30.092 74.7432 30.0104 72.8173 29.8738C72.5555 28.9185 72.6465 28.2441 72.8695 27.285C72.9358 26.9949 73.002 26.7049 73.0703 26.406C73.1447 26.0912 73.2191 25.7764 73.2937 25.4616C73.3689 25.1367 73.444 24.8117 73.5189 24.4867C73.6761 23.8063 73.8349 23.1263 73.9948 22.4465C74.1992 21.5777 74.4011 20.7083 74.602 19.8387C74.7944 19.0064 74.988 18.1744 75.1817 17.3425C75.2183 17.1849 75.2549 17.0274 75.2926 16.865C75.3971 16.416 75.5025 15.9671 75.6082 15.5183C75.668 15.2634 75.7277 15.0085 75.7893 14.7459C75.9697 14.0463 76.1967 13.3594 76.4243 12.6738Z" fill="white"/>
-<path d="M107.535 12.6733C108.196 12.5886 108.196 12.5886 109.054 12.589C109.211 12.5882 109.367 12.5873 109.528 12.5865C110.047 12.5846 110.565 12.5877 111.084 12.591C111.446 12.5912 111.808 12.591 112.17 12.5907C112.931 12.5907 113.691 12.5931 114.452 12.5972C115.42 12.6023 116.388 12.6024 117.357 12.6009C118.105 12.6001 118.854 12.6017 119.603 12.6039C119.96 12.6047 120.316 12.605 120.673 12.6046C126.419 12.6037 126.419 12.6037 128.051 14.0311C129.031 15.1174 129.005 16.2395 128.99 17.648C128.928 18.7606 128.707 19.8214 128.459 20.9055C128.408 21.1321 128.358 21.3588 128.306 21.5923C127.638 24.4717 126.922 27.1586 124.377 28.8787C122.15 30.0304 120.034 29.9623 117.595 29.9396C117.193 29.9383 116.792 29.9373 116.39 29.9366C115.34 29.9341 114.289 29.9274 113.238 29.9199C112.164 29.9129 111.089 29.9098 110.015 29.9064C107.911 29.8991 105.807 29.8876 103.703 29.8733C103.382 28.9994 103.57 28.3338 103.776 27.4425C103.81 27.2912 103.845 27.1398 103.88 26.9839C103.994 26.4846 104.111 25.9861 104.229 25.4875C104.309 25.1403 104.389 24.7932 104.469 24.4459C104.637 23.7187 104.806 22.9918 104.977 22.2652C105.195 21.3337 105.411 20.4016 105.625 19.4692C105.79 18.7523 105.956 18.0358 106.123 17.3194C106.203 16.9758 106.283 16.6321 106.362 16.2883C106.473 15.808 106.585 15.3282 106.699 14.8484C106.762 14.5752 106.826 14.302 106.892 14.0206C107.085 13.3522 107.085 13.3522 107.535 12.6733ZM111.593 16.9733C111.032 19.0331 110.511 21.0926 110.072 23.1828C109.981 23.6092 109.891 24.0357 109.8 24.4621C109.756 24.6718 109.711 24.8815 109.665 25.0976C109.632 25.2546 109.599 25.4115 109.564 25.5733C111.049 25.5905 112.533 25.6024 114.017 25.6105C114.522 25.614 115.026 25.6186 115.531 25.6245C116.257 25.6327 116.984 25.6366 117.71 25.6396C117.935 25.6431 118.16 25.6466 118.391 25.6502C119.602 25.6505 120.475 25.5941 121.513 24.8943C122.951 23.1278 123.418 20.5629 123.414 18.3205C123.289 17.7555 123.09 17.5528 122.64 17.1996C121.996 16.9842 121.602 16.9457 120.935 16.9476C120.727 16.9476 120.52 16.9476 120.306 16.9476C120.083 16.9488 119.859 16.9499 119.629 16.9512C119.4 16.9515 119.171 16.9518 118.934 16.9521C118.202 16.9534 117.469 16.9562 116.736 16.9591C116.24 16.9602 115.743 16.9613 115.247 16.9622C114.029 16.9647 112.811 16.9685 111.593 16.9733Z" fill="white"/>
-<path d="M59.7692 12.6131C60.0262 12.6127 60.2832 12.6123 60.548 12.6118C61.0889 12.6115 61.6298 12.6123 62.1707 12.6142C62.9934 12.6167 63.816 12.6143 64.6386 12.6114C65.1666 12.6117 65.6945 12.6122 66.2224 12.6131C66.4658 12.6122 66.7092 12.6113 66.9599 12.6104C68.8794 12.6221 70.9487 12.7051 72.592 13.8048C73.5247 14.8676 73.7354 15.8244 73.7192 17.1996C73.4568 20.7984 72.6836 26.3602 69.892 28.8628C67.7773 30.3996 65.8158 30.5875 63.2767 30.5902C63.0299 30.591 62.783 30.5917 62.5287 30.5925C62.0068 30.5936 61.485 30.5942 60.9631 30.5941C60.1721 30.5946 59.3811 30.5987 58.59 30.603C58.081 30.6037 57.572 30.6041 57.063 30.6043C56.7131 30.6068 56.7131 30.6068 56.3561 30.6093C54.1397 30.6024 51.6454 30.5605 49.8648 29.0811C48.9223 27.886 49.2467 25.655 49.3716 24.2153C50.5429 16.1606 50.5429 16.1606 53.2543 14.1036C55.3374 12.7526 57.3328 12.604 59.7692 12.6131ZM56.3066 18.2728C55.2211 20.2878 54.7636 22.8408 54.7822 25.1206C54.8566 25.3447 54.931 25.5687 55.0076 25.7996C56.0568 26.2825 57.0772 26.3217 58.2122 26.3203C58.3867 26.3212 58.5612 26.3222 58.741 26.3232C59.1084 26.3245 59.4757 26.3246 59.8431 26.3236C60.4017 26.3229 60.96 26.3282 61.5186 26.334C61.8771 26.3345 62.2357 26.3346 62.5943 26.3344C62.7594 26.3365 62.9245 26.3386 63.0947 26.3407C64.2385 26.3305 65.0355 26.1035 66.0542 25.5732C67.5436 23.8212 68.2149 20.3335 68.0832 18.1048C67.6864 17.384 67.5199 17.2374 66.7306 16.9732C66.0979 16.9458 65.471 16.9307 64.8381 16.9273C64.6521 16.926 64.4661 16.9247 64.2745 16.9234C63.8809 16.9212 63.4873 16.9197 63.0937 16.9189C62.494 16.9167 61.8945 16.9097 61.2949 16.9025C60.912 16.901 60.529 16.8999 60.1461 16.899C59.9678 16.8962 59.7895 16.8934 59.6059 16.8905C58.2133 16.8961 57.225 17.1432 56.3066 18.2728Z" fill="white"/>
-<path d="M152.173 12.6739C154.372 12.6634 156.571 12.6554 158.769 12.6505C159.791 12.6481 160.812 12.6449 161.833 12.6398C162.82 12.6348 163.806 12.6321 164.793 12.631C165.168 12.6301 165.544 12.6285 165.919 12.626C170.481 12.5974 170.481 12.5974 171.998 13.5367C172.732 14.3188 172.889 14.8896 172.984 15.9555C172.912 18.3266 172.299 20.5937 170.56 22.2499C169.938 22.6612 169.305 22.9955 168.63 23.3107C168.758 23.3551 168.885 23.3994 169.017 23.4451C169.182 23.5128 169.347 23.5805 169.518 23.6502C169.682 23.7132 169.847 23.7762 170.017 23.8412C170.566 24.3357 170.613 24.7933 170.668 25.5151C170.652 26.3982 170.449 27.2139 170.222 28.0634C170.069 28.6609 169.915 29.2583 169.757 29.8739C167.972 29.8739 166.186 29.8739 164.347 29.8739C164.57 28.5296 164.793 27.1853 165.023 25.8002C161.526 25.7255 158.03 25.6509 154.427 25.5739C154.353 26.1714 154.278 26.7689 154.202 27.3844C153.979 28.206 153.755 29.0275 153.525 29.8739C151.814 29.8739 150.103 29.8739 148.34 29.8739C148.655 27.8596 149.059 25.8827 149.518 23.8969C149.587 23.5929 149.657 23.2889 149.726 22.9848C149.871 22.3539 150.016 21.723 150.161 21.0923C150.348 20.2843 150.533 19.4761 150.718 18.6679C150.861 18.0428 151.004 17.4179 151.148 16.793C151.249 16.3503 151.351 15.9076 151.452 15.4649C151.514 15.1974 151.576 14.9298 151.639 14.6541C151.693 14.4186 151.748 14.183 151.803 13.9403C151.947 13.3529 151.947 13.3529 152.173 12.6739ZM156.456 16.9739C156.305 17.5205 156.154 18.0674 156.005 18.6147C155.941 18.8462 155.941 18.8462 155.875 19.0824C155.667 19.8495 155.554 20.4722 155.554 21.2739C156.946 21.2907 158.338 21.303 159.731 21.3112C160.204 21.3146 160.677 21.3192 161.151 21.3251C161.832 21.3334 162.513 21.3372 163.194 21.3402C163.405 21.3437 163.616 21.3472 163.834 21.3508C164.939 21.3511 165.709 21.3318 166.601 20.595C167.186 19.6551 167.433 18.5214 167.277 17.4265C166.566 16.9502 166.404 16.918 165.593 16.9225C165.39 16.9226 165.187 16.9226 164.978 16.9226C164.759 16.925 164.541 16.9273 164.316 16.9297C164.092 16.9303 163.867 16.931 163.636 16.9316C162.92 16.9342 162.203 16.9399 161.486 16.9456C161.001 16.9479 160.515 16.95 160.029 16.9518C158.838 16.9568 157.647 16.9644 156.456 16.9739Z" fill="white"/>
-<path d="M133.856 12.6481C134.037 12.6481 134.217 12.648 134.403 12.648C135.001 12.6481 135.598 12.6499 136.196 12.6517C136.61 12.6521 137.024 12.6524 137.437 12.6526C138.528 12.6535 139.618 12.6557 140.709 12.6582C141.821 12.6606 142.933 12.6616 144.045 12.6627C146.228 12.6652 148.411 12.669 150.594 12.6738C150.56 13.0009 150.524 13.328 150.489 13.655C150.47 13.8372 150.45 14.0193 150.43 14.207C150.333 15.004 150.128 15.7476 149.918 16.5211C148.473 16.7817 147.053 16.7802 145.588 16.7775C145.326 16.7777 145.064 16.778 144.794 16.7782C144.243 16.7783 143.692 16.7779 143.141 16.777C142.294 16.7757 141.448 16.777 140.601 16.7784C140.065 16.7783 139.53 16.778 138.994 16.7775C138.74 16.778 138.486 16.7784 138.224 16.7789C137.99 16.7782 137.756 16.7775 137.514 16.7767C137.308 16.7766 137.101 16.7764 136.889 16.7762C136.391 16.7475 136.391 16.7475 135.941 16.5211C135.792 17.4174 135.643 18.3136 135.49 19.2369C139.656 19.3116 143.822 19.3863 148.114 19.4633C147.837 21.9676 147.837 21.9676 147.438 22.858C146.75 23.0883 146.288 23.1117 145.567 23.11C145.202 23.11 145.202 23.11 144.829 23.1099C144.566 23.1088 144.303 23.1076 144.033 23.1064C143.763 23.1061 143.494 23.1058 143.217 23.1054C142.355 23.1042 141.494 23.1013 140.633 23.0984C140.049 23.0973 139.466 23.0963 138.882 23.0954C137.451 23.0929 136.019 23.0889 134.588 23.0843C134.365 24.0552 134.142 25.0261 133.912 26.0264C138.45 26.0264 142.988 26.0264 147.663 26.0264C146.987 29.4211 146.987 29.4211 146.762 29.8738C140.661 29.8738 134.561 29.8738 128.276 29.8738C127.801 28.6819 127.801 28.4613 128.077 27.2813C128.143 26.9905 128.209 26.6998 128.278 26.4002C128.353 26.0846 128.429 25.7691 128.505 25.4535C128.58 25.1281 128.656 24.8026 128.731 24.4771C128.889 23.7956 129.049 23.1146 129.211 22.434C129.418 21.5633 129.621 20.6919 129.823 19.82C130.016 18.9865 130.211 18.1534 130.407 17.3203C130.444 17.1622 130.481 17.004 130.519 16.8411C130.624 16.3913 130.731 15.9419 130.838 15.4926C130.898 15.2372 130.958 14.9817 131.021 14.7186C131.193 14.0828 131.376 13.4955 131.657 12.9001C132.355 12.5499 133.091 12.6444 133.856 12.6481Z" fill="white"/>
-<path d="M176.52 11.9951C176.669 11.9951 176.818 11.9951 176.971 11.9951C177.338 12.4477 177.338 12.4477 177.648 12.9004C177.945 12.6016 178.243 12.3029 178.549 11.9951C178.833 12.5656 178.756 12.8674 178.676 13.4945C178.653 13.6794 178.63 13.8644 178.607 14.0549C178.588 14.1967 178.569 14.3385 178.549 14.4846C178.475 14.4846 178.401 14.4846 178.324 14.4846C178.249 14.0365 178.175 13.5884 178.098 13.1267C177.875 13.3507 177.652 13.5748 177.422 13.8056C177.273 13.5816 177.125 13.3575 176.971 13.1267C176.897 13.5748 176.822 14.0229 176.746 14.4846C176.671 14.4846 176.597 14.4846 176.52 14.4846C176.477 14.1123 176.435 13.7398 176.394 13.3672C176.37 13.1597 176.346 12.9523 176.322 12.7386C176.313 12.5679 176.304 12.3973 176.295 12.2214C176.369 12.1467 176.444 12.0721 176.52 11.9951Z" fill="white" fill-opacity="0.95"/>
-<path d="M174.041 11.9951C174.636 11.9951 175.231 11.9951 175.844 11.9951C175.844 12.1445 175.844 12.2939 175.844 12.4477C175.621 12.5224 175.398 12.5971 175.168 12.6741C175.168 13.2715 175.168 13.869 175.168 14.4846C175.019 14.4846 174.87 14.4846 174.717 14.4846C174.717 13.8124 174.717 13.1403 174.717 12.4477C174.494 12.4477 174.27 12.4477 174.041 12.4477C174.041 12.2984 174.041 12.149 174.041 11.9951Z" fill="white" fill-opacity="0.95"/>
-</g>
-<defs>
-<clipPath id="clip0_126_10429">
-<rect width="179" height="43" fill="white"/>
-</clipPath>
-</defs>
-</svg>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Powder — Insurance, wired into every transaction.</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="site-header" id="site-header">
+  <div class="container header-inner">
+    <a href="#hero" class="logo" aria-label="Powder — Home"><img src="logo-header.svg" alt="Powder" height="26"></a>
+    <nav class="nav-links">
+      <a href="#products">Product</a>
+      <a href="#company">Company</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <a href="#waitlist" class="btn btn-primary">Join waitlist</a>
+    <button class="hamburger" id="hamburger" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-drawer">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<div class="mobile-drawer__overlay" id="drawer-overlay"></div>
+<nav class="mobile-drawer" id="mobile-drawer" aria-hidden="true">
+  <button class="mobile-drawer__close" id="drawer-close" aria-label="Close menu">&times;</button>
+  <div class="mobile-drawer__links">
+    <a href="#products">Product</a>
+    <a href="#company">Company</a>
+    <a href="contact.html">Contact</a>
+  </div>
+  <a href="#waitlist" class="btn btn-primary btn-block">Join waitlist</a>
+</nav>
+
+<main>
+
+  <!-- HERO -->
+  <section class="hero container" id="hero">
+    <div class="hero__col" data-parallax data-speed="0.15">
+      <h1 class="hero__title"><span class="hero__accent">Insurance</span>, wired into every transaction.</h1>
+      <p class="hero__lede">Powder is the infrastructure layer powering embedded insurance across Africa. Through one API, businesses can quote, issue, collect premiums, automate claims, and manage insurance products — without becoming insurers.</p>
+      <div class="hero__actions">
+        <a href="#waitlist" class="btn btn-primary">Get started</a>
+        <a href="#products" class="btn btn-outline">See products</a>
+      </div>
+      <p class="hero__trust">Built for insurers, fintechs, banks, marketplaces, healthcare providers and enterprise platforms.</p>
+    </div>
+
+    <article class="ticket" data-parallax data-speed="-0.12">
+      <div class="ticket__head">
+        <span class="ticket__id">transaction · #PWD-88291</span>
+        <span class="ticket__live"><span class="pulse-dot"></span>live</span>
+      </div>
+      <ul class="ticket__rows">
+        <li class="ticket__row"><span class="key">product</span><span class="val">Device Protection Plan</span></li>
+        <li class="ticket__row"><span class="key">customer</span><span class="val">checkout · mobile</span></li>
+        <li class="ticket__row"><span class="key">status</span><span class="val accent">quoted</span></li>
+        <li class="ticket__row"><span class="key">amount</span><span class="val">₦1,240 / mo</span></li>
+      </ul>
+      <div class="rail" id="ticket-rail">
+        <div class="rail__step active"><span class="rail__dot"></span><span class="rail__label">Quote</span></div>
+        <div class="rail__step"><span class="rail__dot"></span><span class="rail__label">Issue</span></div>
+        <div class="rail__step"><span class="rail__dot"></span><span class="rail__label">Collect</span></div>
+        <div class="rail__step"><span class="rail__dot"></span><span class="rail__label">Claim</span></div>
+      </div>
+      <p class="ticket__caption">One event stream, four states. Every policy on Powder moves through this same wire — visible over the API, start to finish.</p>
+    </article>
+  </section>
+
+  <!-- INFRASTRUCTURE -->
+  <section class="infra" id="infrastructure">
+    <div class="container">
+      <div class="section__head">
+        <div class="eyebrow"><span class="eyebrow__dot"></span>Infrastructure<span class="eyebrow__line"></span></div>
+        <h2 class="section__title">Infrastructure for programmable insurance.</h2>
+        <p class="section__lede">Whether you are launching cover for gig workers, adding protection at checkout, or bundling insurance into an embedded financial product, Powder gives you the rails: pricing, issuance, collection, claims and administration in one place.</p>
+        <p class="section__note">Everything required to launch insurance, exposed as APIs.</p>
+      </div>
+
+      <div class="cap-grid">
+        <div class="cap-col pop">
+          <div class="cap-col__head"><span class="eyebrow__dot"></span><h3>APIs</h3></div>
+          <ul class="cap-list">
+            <li>Quote &amp; Pricing</li>
+            <li>Policy Issuance</li>
+            <li>Premium Collection</li>
+            <li>Claims</li>
+            <li>Customer APIs</li>
+          </ul>
+        </div>
+        <div class="cap-col pop">
+          <div class="cap-col__head"><span class="eyebrow__dot"></span><h3>Automation</h3></div>
+          <ul class="cap-list">
+            <li>AI Claims</li>
+            <li>Fraud Detection</li>
+            <li>Pre-authorisation</li>
+            <li>Voice Agents</li>
+            <li>WhatsApp Agents</li>
+          </ul>
+        </div>
+        <div class="cap-col pop">
+          <div class="cap-col__head"><span class="eyebrow__dot"></span><h3>Operations</h3></div>
+          <ul class="cap-list">
+            <li>Policy Administration</li>
+            <li>Provider Management</li>
+            <li>Tariffs &amp; Benefits</li>
+            <li>Reporting</li>
+            <li>Reconciliation</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PRODUCTS -->
+  <section class="products" id="products">
+    <div class="container">
+      <div class="section__head">
+        <div class="eyebrow"><span class="eyebrow__dot"></span>Products<span class="eyebrow__line"></span></div>
+        <h2 class="section__title">Products built on the Powder Platform.</h2>
+        <p class="section__lede">Three products, one platform — use them independently or together.</p>
+      </div>
+
+      <div class="product-grid">
+        <div class="product-card pop">
+          <span class="tag">Embedded</span>
+          <h3>Powder Embedded</h3>
+          <p>Insurance APIs for digital platforms. Launch insurance inside your app, website, checkout, payroll system or marketplace with a single integration.</p>
+          <div class="chips">
+            <span class="chip">Quote APIs</span>
+            <span class="chip">Policy APIs</span>
+            <span class="chip">Claims APIs</span>
+            <span class="chip">Premium Collection</span>
+            <span class="chip">Embedded Checkout</span>
+            <span class="chip">Webhooks</span>
+            <span class="chip">Developer SDKs</span>
+          </div>
+        </div>
+
+        <div class="product-card pop">
+          <span class="tag">Core</span>
+          <h3>PowderOS</h3>
+          <p>The operating system for insurers. Modern infrastructure for insurers, HMOs and TPAs to manage products, policies, providers, members and claims from one platform.</p>
+          <div class="chips">
+            <span class="chip">Claims Management</span>
+            <span class="chip">Member Management</span>
+            <span class="chip">Provider Network</span>
+            <span class="chip">Benefits Engine</span>
+            <span class="chip">Billing</span>
+            <span class="chip">Reporting</span>
+            <span class="chip">Administration</span>
+          </div>
+        </div>
+
+        <div class="product-card pop">
+          <span class="tag">Automation</span>
+          <h3>Powder AI</h3>
+          <p>AI agents that automate insurance operations. Reduce operational costs with AI-powered claims review, customer support, fraud detection and pre-authorisation.</p>
+          <div class="chips">
+            <span class="chip">Claims Vetting</span>
+            <span class="chip">Medical Review</span>
+            <span class="chip">Voice AI</span>
+            <span class="chip">WhatsApp AI</span>
+            <span class="chip">Fraud Detection</span>
+            <span class="chip">Document Intelligence</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="faq" id="faq">
+    <div class="container faq__grid">
+      <div class="faq__sticky">
+        <div class="eyebrow"><span class="eyebrow__dot"></span>FAQ<span class="eyebrow__line"></span></div>
+        <h2 class="section__title">Frequently Asked Questions</h2>
+        <p class="section__lede">Straight answers on integration, licensing, automation and security.</p>
+        <a href="contact.html" class="btn btn-primary faq__cta">Book a Demo</a>
+      </div>
+
+      <div class="faq__card">
+      <div class="faq__list">
+        <div class="faq__item">
+          <button class="faq__trigger" aria-expanded="false">
+            <span>What is Powder?</span>
+            <span class="faq__icon"></span>
+          </button>
+          <div class="faq__panel">
+            <p>Powder is an embedded insurance platform that enables businesses to offer insurance at the point of transaction. Whether customers are checking out online, paying for healthcare, booking travel, or applying for a loan, Powder makes it easy to embed relevant insurance into those experiences.</p>
+          </div>
+        </div>
+        <div class="faq__item">
+          <button class="faq__trigger" aria-expanded="false">
+            <span>Who is Powder built for?</span>
+            <span class="faq__icon"></span>
+          </button>
+          <div class="faq__panel">
+            <p>Powder is designed for businesses that want to offer insurance without becoming insurance companies. We work with fintechs, logistics companies, healthcare providers, e-commerce platforms, mobility companies, banks, telecoms, and other digital businesses.</p>
+          </div>
+        </div>
+        <div class="faq__item">
+          <button class="faq__trigger" aria-expanded="false">
+            <span>How does embedded insurance work?</span>
+            <span class="faq__icon"></span>
+          </button>
+          <div class="faq__panel">
+            <p>Powder connects your business to licensed insurance providers through a single integration. When a customer reaches a relevant point in their journey, your platform can present an insurance offer, issue a policy instantly, collect premiums, and manage claims — all without leaving your product.</p>
+          </div>
+        </div>
+        <div class="faq__item">
+          <button class="faq__trigger" aria-expanded="false">
+            <span>Do we need an insurance licence?</span>
+            <span class="faq__icon"></span>
+          </button>
+          <div class="faq__panel">
+            <p>No. Businesses integrate with Powder while insurance products are underwritten by licensed insurance partners. This allows you to offer protection without managing the regulatory complexity of being an insurer.</p>
+          </div>
+        </div>
+        <div class="faq__item">
+          <button class="faq__trigger" aria-expanded="false">
+            <span>What types of insurance can we offer?</span>
+            <span class="faq__icon"></span>
+          </button>
+          <div class="faq__panel">
+            <p>Depending on your business model, you can offer products such as device protection, goods-in-transit insurance, health insurance, travel insurance, motor insurance, loan protection, gig worker insurance, and other embedded insurance products through the Powder platform.</p>
+          </div>
+        </div>
+        <div class="faq__item">
+          <button class="faq__trigger" aria-expanded="false">
+            <span>How long does integration take?</span>
+            <span class="faq__icon"></span>
+          </button>
+          <div class="faq__panel">
+            <p>Most businesses can begin integrating within days using our APIs and developer tools. Our team works closely with you to configure products, connect insurance partners, and prepare for launch.</p>
+          </div>
+        </div>
+        <div class="faq__item">
+          <button class="faq__trigger" aria-expanded="false">
+            <span>Can Powder work with our existing platform?</span>
+            <span class="faq__icon"></span>
+          </button>
+          <div class="faq__panel">
+            <p>Yes. Powder is API-first and designed to integrate with existing applications, checkout systems, payment platforms, CRMs, ERPs, and digital products with minimal disruption.</p>
+          </div>
+        </div>
+        <div class="faq__item">
+          <button class="faq__trigger" aria-expanded="false">
+            <span>How do we get started?</span>
+            <span class="faq__icon"></span>
+          </button>
+          <div class="faq__panel">
+            <p>Book a demo with our team. We'll learn about your business, recommend the right insurance products for your customer journey, and guide you from integration to launch.</p>
+          </div>
+        </div>
+      </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- COMPANY -->
+  <section class="company" id="company">
+    <div class="container">
+      <div class="panel-dark">
+        <span class="panel-dark__glow"></span>
+        <div class="panel-dark__inner">
+          <div class="eyebrow eyebrow--light"><span class="eyebrow__dot"></span>Company<span class="eyebrow__line"></span></div>
+          <h2 class="panel-dark__title">Building Africa's insurance infrastructure.</h2>
+          <p class="panel-dark__sub">Insurance should be as programmable as payments.</p>
+          <p class="panel-dark__copy">Powder exists to abstract away the complexity of insurance infrastructure. Licensing, policy administration, premium collection, provider networks and claims adjudication are hard problems — we solve them once, then expose them as clean, documented APIs any team can build on.</p>
+          <p class="panel-dark__copy">We are building the foundational layer that connects licensed insurers, digital platforms and millions of customers across the continent, so cover can reach people at the exact moment they need it.</p>
+
+          <div class="num-grid">
+            <div class="num-grid__cell"><span class="num">01</span><h3>API First</h3><p>Designed for developers with modern REST APIs, SDKs and webhooks.</p></div>
+            <div class="num-grid__cell"><span class="num">02</span><h3>Infrastructure</h3><p>Built for scale with enterprise-grade reliability.</p></div>
+            <div class="num-grid__cell"><span class="num">03</span><h3>AI Native</h3><p>Automation across underwriting, claims and customer support.</p></div>
+            <div class="num-grid__cell"><span class="num">04</span><h3>Embedded</h3><p>Launch insurance anywhere your customers already are.</p></div>
+            <div class="num-grid__cell"><span class="num">05</span><h3>Regulatory Ready</h3><p>Designed to work with licensed insurers across Africa.</p></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- WAITLIST -->
+  <section class="waitlist" id="waitlist">
+    <div class="container waitlist-inner">
+      <div class="eyebrow eyebrow--center"><span class="eyebrow__dot"></span>Waitlist</div>
+      <h2 class="section__title">Join the Waitlist</h2>
+
+      <form class="waitlist-form" id="waitlist-form">
+        <div class="field">
+          <label for="waitlist-name">Full name</label>
+          <input type="text" id="waitlist-name" placeholder="Ada Obi" required>
+        </div>
+        <div class="field">
+          <label for="waitlist-email">Company email</label>
+          <input type="email" id="waitlist-email" placeholder="you@company.com" required>
+        </div>
+        <button type="submit" class="btn btn-primary btn-block">Join Waitlist</button>
+        <p class="form__status" id="waitlist-status"></p>
+      </form>
+
+      <div class="waitlist-counter">
+        <div class="waitlist-counter__top">
+          <span class="pulse-dot"></span>
+          <span class="waitlist-counter__number">1,204</span>
+        </div>
+        <span class="waitlist-counter__label">builders waiting</span>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div class="footer-brand">
+      <div class="logo logo--light"><img src="logo-footer.svg" alt="Powder" height="30"></div>
+      <p>Insurance Infrastructure for Africa.</p>
+    </div>
+    <div class="footer-col">
+      <h2>Resources</h2>
+      <ul>
+        <li><a href="#">Documentation</a></li>
+        <li><a href="#">API Reference</a></li>
+        <li><a href="#">Status</a></li>
+        <li><a href="#">Changelog</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h2>Company</h2>
+      <ul>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Careers</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="#">Legal</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h2>Get in Touch</h2>
+      <ul>
+        <li><a href="tel:+2347039024954">+234 703 902 4954</a></li>
+        <li><a href="mailto:info@getpowder.xyz">info@getpowder.xyz</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="container footer-bottom">
+    <p>© 2026 Powder Technologies Ltd.</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
