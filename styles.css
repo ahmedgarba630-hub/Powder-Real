@@ -204,6 +204,7 @@ body.drawer-open{ overflow: hidden; }
   letter-spacing: -0.4px;
   margin-bottom: 26px;
 }
+.hero__accent{ color: var(--cornflower); }
 .hero__lede{
   font-family: var(--font-hero);
   font-weight: 400;
